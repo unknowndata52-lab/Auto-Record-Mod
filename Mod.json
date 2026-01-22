@@ -1,9 +1,17 @@
 {
 	"geode": "4.10.0",
 	"gd": "2.207",
-	"id": "Artyxlr.AutoRecord",
+	"id": "Artyxlr.smart_recorder",
 	"version": "v1.0.0",
-	"name": "Auto record",
+	"name": "Smart Recorder",
 	"developer": "Artyxlr",
-	"description": "First Geode mod i made"
+	"description": "Only saves recordings on completion!",
+	"settings": {
+		"keep-all": {
+			"type": "bool",
+			"name": "Keep All Recordings",
+			"description": "If enabled, videos will not be deleted even if you fail the level.",
+			"default": false
+		}
+	}
 }
